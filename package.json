@@ -1,6 +1,6 @@
 {
   "name": "vue2-leaflet-nuxt",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Vue2 leaflet nuxt wrapper",
   "author": "Sebastian Krüger",
   "main": "./src/nuxt.js",

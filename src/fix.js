@@ -1,8 +1,6 @@
 let fixed = false
 
-if (fixed || process.client) {
-  return
-} else {
+if (!fixed && process.client) {
   fixed = true
   const L = require('leaflet')
   require('leaflet/dist/leaflet.css')
