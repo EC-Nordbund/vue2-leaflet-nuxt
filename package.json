@@ -1,6 +1,6 @@
 {
   "name": "vue2-leaflet-nuxt",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Vue2 leaflet nuxt wrapper",
   "author": "Sebastian Krüger",
   "main": "./src/nuxt.js",
@@ -14,5 +14,8 @@
   "license": "MIT",
   "peerDependencies": {
     "leaflet": "^1.3.4"
+  },
+  "optionalDependencies": {
+    "leaflet-gesture-handling": "^1.2.1"
   }
 }
