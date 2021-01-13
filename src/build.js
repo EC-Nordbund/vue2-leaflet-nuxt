@@ -1,9 +1,9 @@
 const fs = require('fs')
 
-const genCmp = name => `if(process.client) { require('../fix.js') };export default process.client ? require('vue2-leaflet/dist/components/${name}.js').default : (process.env.NODE_ENV === 'development' ? {render:h=>h('Component muss in client-only gewrapt werden')} : {})`
+const genCmp = name => `if(process.client) { require('../init.js') };export default process.client ? require('vue2-leaflet/dist/components/${name}.js').default : require('../noop.js').default`
 
 
-if(!fs.existsSync('./src/components')) {
+if (!fs.existsSync('./src/components')) {
   fs.mkdirSync('./src/components')
 }
 
