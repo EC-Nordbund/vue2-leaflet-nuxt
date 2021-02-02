@@ -1,21 +1,28 @@
+import { Icon } from "leaflet";
+import { setup } from "./gestureHandling/leaflet-gesture-handling";
+
 let fixed = false
 
-if (!fixed && process.client) {
-  fixed = true
-  const L = require('leaflet')
-  require('leaflet/dist/leaflet.css')
+const init = () => {
 
-  try {
-    globalThis.L = L
-    require('leaflet-gesture-handling')
-    require('leaflet-gesture-handling/dist/leaflet-gesture-handling.css')
-  } catch (e) { }
+  if (!fixed && process.client) {
+    fixed = true
 
+    setup()
 
-  delete (L.Icon.Default.prototype)._getIconUrl
-  L.Icon.Default.mergeOptions({
-    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-    iconUrl: require('leaflet/dist/images/marker-icon.png'),
-    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
-  })
+    require('vue2-leaflet-nuxt/dist/style.css')
+
+    delete (Icon.Default.prototype)._getIconUrl
+    Icon.Default.mergeOptions({
+      iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+      iconUrl: require('leaflet/dist/images/marker-icon.png'),
+      shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+    })
+  }
+
 }
+
+
+
+
+export default init

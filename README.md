@@ -1,5 +1,5 @@
 # vue2-leaflet-nuxt
-> Helper für vue2-leaflet für nuxt
+> Helper for vue2-leaflet with nuxt
 
 ## Install
 ```sh
