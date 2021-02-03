@@ -23,7 +23,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@ec-nordbund/leaflet@^1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2":
+"@ec-nordbund/leaflet@1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2":
   version "1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2"
   resolved "https://registry.yarnpkg.com/@ec-nordbund/leaflet/-/leaflet-1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2.tgz#6bdf127cd7080f83e88ad19dea88e60e79f82aa0"
   integrity sha512-Y+CYxkldogssEd5nY5esMoMPGmo8+Qk8zaXSn6QEr1XT6ej7os7Cgg9oNWQhHGosWrGbhFfAab3nm5hVWPxSRQ==
@@ -41,14 +41,14 @@
     magic-string "^0.25.7"
     resolve "^1.17.0"
 
-"@rollup/plugin-json@^4.1.0":
+"@rollup/plugin-json@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-json/-/plugin-json-4.1.0.tgz#54e09867ae6963c593844d8bd7a9c718294496f3"
   integrity sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
 
-"@rollup/plugin-node-resolve@^11.1.1":
+"@rollup/plugin-node-resolve@11.1.1":
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-11.1.1.tgz#47bc34252914794a1b06fb50371d7520a03f91f3"
   integrity sha512-zlBXR4eRS+2m79TsUZWhsd0slrHUYdRx4JF+aVQm+MI0wsKdlpC2vlDVjmlGvtZY1vsefOT9w3JxvmWSBei+Lg==
@@ -410,7 +410,7 @@ terser@^5.0.0:
     source-map "~0.7.2"
     source-map-support "~0.5.19"
 
-vue2-leaflet@^2.6.0:
+vue2-leaflet@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/vue2-leaflet/-/vue2-leaflet-2.6.0.tgz#c83c60a745fbc2a74d9dbd0f75b2a5ae07d220a9"
   integrity sha512-JG+w9TtNuk1yRpPta+RjzH6J+opdRUPzSo8UuBnwk+a/6XD0f2tsaB6g3D6ZpBgIE4wZA2dbZ0dZFz2ulYMj3A==
