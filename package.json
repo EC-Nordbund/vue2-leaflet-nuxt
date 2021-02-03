@@ -1,6 +1,6 @@
 {
   "name": "@ec-nordbund/nuxt-vue2-leaflet",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Vue2 leaflet nuxt wrapper",
   "author": "Sebastian Krüger",
   "main": "./src/nuxt.js",
@@ -9,16 +9,13 @@
     "prepublishOnly": "yarn build"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "leaflet": "https://github.com/EC-Nordbund/Leaflet",
-    "vue2-leaflet": "2.5.2"
-  },
   "devDependencies": {
+    "@ec-nordbund/leaflet": "^1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2",
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
     "@types/leaflet": "1.5.21",
     "@types/node": "14.14.22",
-    "leaflet": "https://github.com/EC-Nordbund/Leaflet",
     "rollup": "2.38.4",
     "rollup-plugin-terser": "7.0.2",
     "vue2-leaflet": "^2.6.0"
