@@ -1,3 +1,8 @@
+const engl = {
+    touch: "Use two fingers to move the map",
+    scroll: "Use ctrl + scroll to zoom the map",
+    scrollMac: "Use \u2318 + scroll to zoom the map"
+};
 export default {
     //Arabic
     ar: {
@@ -54,7 +59,7 @@ export default {
     de: {
         touch: "Verschieben der Karte mit zwei Fingern",
         scroll: "Verwende Strg+Scrollen zum Zoomen der Karte",
-        scrollMac: "\u2318"
+        scrollMac: "Benutze \u2318+Scrollen zum Zoomen der Karte"
     },
     //Greek
     el: {
@@ -66,23 +71,11 @@ export default {
             "\u03a7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03c4\u03b5 \u03c4\u03bf \u03c0\u03bb\u03ae\u03ba\u03c4\u03c1\u03bf \u2318 + \u03ba\u03cd\u03bb\u03b9\u03c3\u03b7 \u03b3\u03b9\u03b1 \u03b5\u03c3\u03c4\u03af\u03b1\u03c3\u03b7 \u03c3\u03c4\u03bf\u03bd \u03c7\u03ac\u03c1\u03c4\u03b7"
     },
     //English
-    en: {
-        touch: "Use two fingers to move the map",
-        scroll: "Use ctrl + scroll to zoom the map",
-        scrollMac: "Use \u2318 + scroll to zoom the map"
-    },
+    en: engl,
     //English (Australian)
-    "en-AU": {
-        touch: "Use two fingers to move the map",
-        scroll: "Use ctrl + scroll to zoom the map",
-        scrollMac: "Use \u2318 + scroll to zoom the map"
-    },
+    "en-AU": engl,
     //English (Great Britain)
-    "en-GB": {
-        touch: "Use two fingers to move the map",
-        scroll: "Use ctrl + scroll to zoom the map",
-        scrollMac: "Use \u2318 + scroll to zoom the map"
-    },
+    "en-GB": engl,
     //Spanish
     es: {
         touch: "Para mover el mapa, utiliza dos dedos",

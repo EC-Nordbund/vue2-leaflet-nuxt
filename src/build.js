@@ -1,4 +1,6 @@
 const fs = require('fs')
+const path = require('path')
+
 
 const genCmp = name => `
 import init from '../init.js'
@@ -33,3 +35,23 @@ if (!fs.existsSync('./dist')) {
 
 const cssCode = css.map(v => fs.readFileSync(v, 'utf-8')).join('\n')
 fs.writeFileSync('./dist/style.css', cssCode)
+
+const base = path.join(path.dirname(require.resolve('leaflet')), '..', 'dist', 'images')
+const t = path.join(__dirname, '..', 'dist', 'images')
+
+if (!fs.existsSync('./dist/images')) {
+  fs.mkdirSync('./dist/images')
+}
+
+
+fs.readdirSync(base).map(file => {
+  const startFile = path.join(base, file)
+  const target = path.join(t, file)
+
+  // console.log(startFile, target)
+
+  const tt = fs.createWriteStream(target)
+  const s = fs.createReadStream(startFile)
+
+  s.pipe(tt)
+})
