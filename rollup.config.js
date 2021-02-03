@@ -37,7 +37,8 @@ export default {
     terser()
   ],
   external: [
-    '@ec-nordbund/leaflet'
+    '@ec-nordbund/leaflet',
+    'vue'
   ]
 }
 

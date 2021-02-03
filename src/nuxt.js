@@ -4,7 +4,7 @@ export default function () {
     // Add ./components dir to the list
     dirs.push({
       path: join(__dirname, '../dist'),
-      ignore: ['noop-*.js']
+      ignore: ['noop-*.js', 'init.js']
     })
   })
 }
