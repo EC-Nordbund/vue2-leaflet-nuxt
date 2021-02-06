@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@ec-nordbund/leaflet@1.7.1-436430db4":
-  version "1.7.1-436430db4"
-  resolved "https://registry.yarnpkg.com/@ec-nordbund/leaflet/-/leaflet-1.7.1-436430db4.tgz#3cef84e215febef32b16de21d07bfc44bdec2e07"
-  integrity sha512-/BsaUjG1U8NeyQAN27lRRyyLp9nGcL4uQwSnxyyXjK6tNoPF9rftz0qubDMrf4zQ/oTmygFCkuJUP8icdK+RkA==
+"@ec-nordbund/leaflet@1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2":
+  version "1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2"
+  resolved "https://registry.yarnpkg.com/@ec-nordbund/leaflet/-/leaflet-1.7.1-436430db4203a350601e002c8de6a41fae15a4bf-2.tgz#6bdf127cd7080f83e88ad19dea88e60e79f82aa0"
+  integrity sha512-Y+CYxkldogssEd5nY5esMoMPGmo8+Qk8zaXSn6QEr1XT6ej7os7Cgg9oNWQhHGosWrGbhFfAab3nm5hVWPxSRQ==
 
 "@rollup/plugin-commonjs@17.1.0":
   version "17.1.0"
